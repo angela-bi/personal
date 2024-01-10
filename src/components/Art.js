@@ -16,7 +16,6 @@ export const Art = () => {
               <img
                 src={item.img}
                 alt={item.title}
-                loading="lazy"
               />
             </ImageListItem>
           ))}

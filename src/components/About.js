@@ -20,7 +20,6 @@ export const About = () => {
             alt="Picture"
             src='picture.png'
           />
-          {/* <img src='/picture.png' alt="Picture" /> */}
         </Grid>
         <Grid item xs={6}>
           <Typography variant="h3"> Angela Bi </Typography>
