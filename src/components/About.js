@@ -18,7 +18,7 @@ export const About = () => {
               width: 0.8,
             }}
             alt="Picture"
-            src='/picture.png'
+            src='picture.png'
           />
           {/* <img src='/picture.png' alt="Picture" /> */}
         </Grid>
@@ -32,9 +32,9 @@ export const About = () => {
           <Typography> During my free time, I illustrate for the Daily Californian, play volleyball, and pet my cat Waffles! </Typography>
           <br/>
           <ButtonGroup>
-            <Button href="mailto:angelabi2003@berkeley.edu" startIcon={<Avatar src={"/button/email.png"} variant='square'/>}></Button>
-            <Button href='https://github.com/angela-bi' startIcon={<Avatar src={"/button/github.png"} variant='square'/>}></Button>
-            <Button href='https://www.linkedin.com/in/angela-lulu-bi/' startIcon={<Avatar src={"/button/linkedin.png"} variant='square'/>}></Button>
+            <Button href="mailto:angelabi2003@berkeley.edu" startIcon={<Avatar src={"button/email.png"} variant='square'/>}></Button>
+            <Button href='https://github.com/angela-bi' startIcon={<Avatar src={"button/github.png"} variant='square'/>}></Button>
+            <Button href='https://www.linkedin.com/in/angela-lulu-bi/' startIcon={<Avatar src={"button/linkedin.png"} variant='square'/>}></Button>
           </ButtonGroup>
         </Grid>
       </Grid>

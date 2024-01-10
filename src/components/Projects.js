@@ -25,7 +25,7 @@ export const Projects = () => {
         <Grid item xs={4}>
         <br/> <br/>
           <ButtonBase sx={{ width: 0.8}}>
-            <Img alt="Mal Demo" src='/projects/mal-demo.gif' />
+            <Img alt="Mal Demo" src='projects/mal-demo.gif' />
           </ButtonBase>
         </Grid> 
         <Grid item xs={8}>
@@ -42,7 +42,7 @@ export const Projects = () => {
         <Grid item xs={4}>
         <br/>
         <ButtonBase sx={{ width: 0.8}}>
-            <Img alt="BYOW Demo" src='/projects/byow_demo.gif' />
+            <Img alt="BYOW Demo" src='projects/byow_demo.gif' />
           </ButtonBase>
         </Grid> 
         <Grid item xs={8}>
@@ -59,7 +59,7 @@ export const Projects = () => {
         <Grid item xs={4}>
         <br/> <br/>
         <ButtonBase sx={{ width: 0.8}}>
-            <Img alt="Housing Demo" src='/projects/housing_demo.gif' />
+            <Img alt="Housing Demo" src='projects/housing_demo.gif' />
           </ButtonBase>
         </Grid> 
         <Grid item xs={8}>
@@ -76,7 +76,7 @@ export const Projects = () => {
         <Grid item xs={4}>
         <br/> <br/>
         <ButtonBase sx={{ width: 0.8}}>
-            <Img alt="Recommend Poster" src='/projects/recommend_poster.png' />
+            <Img alt="Recommend Poster" src='projects/recommend_poster.png' />
           </ButtonBase>
         </Grid> 
         <Grid item xs={8}>
