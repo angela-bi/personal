@@ -25,7 +25,7 @@ export const Projects = () => {
         <Grid item xs={4}>
         <br/> <br/>
           <ButtonBase sx={{ width: 0.8}}>
-            <Img alt="Mal Demo" src="/projects/mal-demo.gif" />
+            <Img alt="Mal Demo" src="projects/mal-demo.gif" />
           </ButtonBase>
         </Grid> 
         <Grid item xs={8}>
