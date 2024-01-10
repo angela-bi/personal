@@ -18,7 +18,7 @@ export const About = () => {
               width: 0.8,
             }}
             alt="Picture"
-            src='picture.png'
+            src='public/picture.png'
           />
           {/* <img src='/picture.png' alt="Picture" /> */}
         </Grid>
