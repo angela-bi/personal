@@ -12,7 +12,7 @@ export const Art = () => {
       <Box sx={{ width: 0.99, overflowY: 'scroll' }} display="flex" justifyContent="center">
         <ImageList variant="masonry" cols={3} gap={20}>
           {itemData.map((item) => (
-            <ImageListItem key={item.img}>
+            <ImageListItem key={item.title}>
               <img
                 src={item.img}
                 alt={item.title}
@@ -27,43 +27,43 @@ export const Art = () => {
 
 const itemData = [
   {
-    img: '/art/cal_day_cover.jpg',
+    img: 'art/cal_day_cover.jpg',
     title: 'Cal Day Cover',
   },
   {
-    img: '/art/strike.jpg',
+    img: 'art/strike.jpg',
     title: 'Strike',
   },
   {
-    img: '/art/career_fair_cover_angelabi.png',
+    img: 'art/career_fair_cover_angelabi.png',
     title: 'Career Fair Cover',
   },
   {
-    img: '/art/chinese.jpg',
+    img: 'art/chinese.jpg',
     title: 'Chinese',
   },
   {
-    img: '/art/dinner.jpg',
+    img: 'art/dinner.jpg',
     title: 'Dinner',
   },
   {
-    img: '/art/fish_seller.jpg',
+    img: 'art/fish_seller.jpg',
     title: 'Fish Seller',
   },
   {
-    img: '/art/ihop.jpg',
+    img: 'art/ihop.jpg',
     title: 'iHop',
   },
   {
-    img: '/art/love.jpg',
+    img: 'art/love.jpg',
     title: 'Love',
   },
   {
-    img: '/art/self_portrait.jpg',
+    img: 'art/self_portrait.jpg',
     title: 'Self Portrait',
   },
   {
-    img: '/art/silver_spoon.jpg',
+    img: 'art/silver_spoon.jpg',
     title: 'Silver Spoon',
   },
 ];
