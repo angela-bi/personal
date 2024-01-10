@@ -28,43 +28,43 @@ export const Art = () => {
 
 const itemData = [
   {
-    img: 'art/cal_day_cover.jpg',
+    img: 'public/art/cal_day_cover.jpg',
     title: 'Cal Day Cover',
   },
   {
-    img: 'art/strike.jpg',
+    img: 'public/art/strike.jpg',
     title: 'Strike',
   },
   {
-    img: 'art/career_fair_cover_angelabi.png',
+    img: 'public/art/career_fair_cover_angelabi.png',
     title: 'Career Fair Cover',
   },
   {
-    img: 'art/chinese.jpg',
+    img: 'public/art/chinese.jpg',
     title: 'Chinese',
   },
   {
-    img: 'art/dinner.jpg',
+    img: 'public/art/dinner.jpg',
     title: 'Dinner',
   },
   {
-    img: 'art/fish_seller.jpg',
+    img: 'public/art/fish_seller.jpg',
     title: 'Fish Seller',
   },
   {
-    img: 'art/ihop.jpg',
+    img: 'public/art/ihop.jpg',
     title: 'iHop',
   },
   {
-    img: 'art/love.jpg',
+    img: 'public/art/love.jpg',
     title: 'Love',
   },
   {
-    img: 'art/self_portrait.jpg',
+    img: 'public/art/self_portrait.jpg',
     title: 'Self Portrait',
   },
   {
-    img: 'art/silver_spoon.jpg',
+    img: 'public/art/silver_spoon.jpg',
     title: 'Silver Spoon',
   },
 ];
