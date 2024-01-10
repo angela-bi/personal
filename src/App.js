@@ -64,7 +64,7 @@ function App() {
                           width: 0.35,
                         }}
                         alt="icon"
-                        src='/icon.png'
+                        src='icon.png'
                       />
                           {/* <img alt="Bear logo" src="/icon.png"/> */}
                       </Grid>
