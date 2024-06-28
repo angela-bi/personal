@@ -25,11 +25,39 @@ export const Experience = () => {
         <Timeline sx={{[`& .${timelineOppositeContentClasses.root}`]: {flex: 0.2,},}}>
             <TimelineItem>
                 <TimelineOppositeContent>
+                    <Typography> May 2024 - Present</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator> <TimelineDot/> <TimelineConnector/> </TimelineSeparator>
+                <TimelineContent>
+                    <Typography variant='h6'> Software Engineering Intern </Typography>
+                    <Typography color="textSecondary"> Adobe </Typography>
+                    <List>
+                        <Typography> Using Retrieval-Augmented Generation with knowledge graphs to improve SQL code summarization. </Typography>
+                        <Typography variant='subtitle2' color="textSecondary"> Javascript, Java, Python, Langchain, OpenAI</Typography>
+                    </List>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent>
+                    <Typography> Jan 2024 - Present</Typography>
+                </TimelineOppositeContent>
+                <TimelineSeparator> <TimelineDot/> <TimelineConnector/> </TimelineSeparator>
+                <TimelineContent>
+                    <Typography variant='h6'> Research Assistant </Typography>
+                    <Typography color="textSecondary"> PLAIT Lab, UC Berkeley </Typography>
+                    <List>
+                        <Typography> Learning under mentor Eric Rawn and professor Sarah Chasins. Currently researching manual and procedural tactics of creating art with p5.js. </Typography>
+                        <Typography variant='subtitle2' color="textSecondary"> Javascript</Typography>
+                    </List>
+                </TimelineContent>
+            </TimelineItem>
+            <TimelineItem>
+                <TimelineOppositeContent>
                     <Typography>Sept 2022 - Present</Typography>
                 </TimelineOppositeContent>
                 <TimelineSeparator> <TimelineDot/> <TimelineConnector/> </TimelineSeparator>
                 <TimelineContent>
-                    <Typography variant='h6'> Undergraduate Teaching Assistant </Typography>
+                    <Typography variant='h6'> Teaching Assistant </Typography>
                     <Typography color="textSecondary"> UC Berkeley College of Computing, Data Science, and Society </Typography>
                     <List>
                         <Typography>Teaching bi-weekly discussions of 30+ students, facilitating office hours, creating and grading major projects/exams in introductory Python class <Link href='https://c88c.org/' color={info}>Computational Structures in Data Science</Link>.</Typography>
